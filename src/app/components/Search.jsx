@@ -78,6 +78,7 @@ const Search = ({ setUsers }) => {
                 <label>
                     ID de usuario:
                 </label>
+                <br/>
                 <input
                     type='number'
                     name='ID'
@@ -92,6 +93,7 @@ const Search = ({ setUsers }) => {
                 <label>
                     Por Nombre:
                 </label>
+                <br/>
                 <input
                     type='text'
                     name='param'
@@ -103,7 +105,8 @@ const Search = ({ setUsers }) => {
             </form>
 
             <form onSubmit={SearchAll}>
-                <label>Obtener todos:</label>
+                <label>Obtener todos</label>
+                <br/>
                 <button>Enviar</button>
             </form>
 

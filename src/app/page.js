@@ -15,7 +15,8 @@ export default function Home() {
       <AppName />
 
       <div className='div-formularios'>
-        <div className='div-register'>
+        <div>
+          <h1>Registro nuevo usuario</h1>
           <Form
             setData={setData}
             setName={setName}
