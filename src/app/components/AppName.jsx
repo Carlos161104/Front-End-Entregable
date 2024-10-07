@@ -3,7 +3,7 @@ import React from 'react'
 function AppName() {
   return (
     <div>
-      <h1>Titulo</h1>
+      <h1>contactos: </h1>
     </div>
   )
 }
